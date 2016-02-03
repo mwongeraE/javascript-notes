@@ -29,3 +29,30 @@ var orangeCost = function(price){
 
 orangeCost(7);
 
+#problem2
+
+// Define quarter here.
+
+var quarter = function(number){
+
+    return number/4 ;
+};
+
+
+//Call the function inside the if statement's condition (and put in a parameter value!) such that "The statement is true" is printed to the console.
+
+if (quarter(36) % 3 === 0 ) 
+
+//We want quarter(some number) that when divided by 3 has remainder 0.
+
+{
+
+  console.log("The statement is true");
+  
+} else {
+
+  console.log("The statement is false");
+  
+}
+
+
