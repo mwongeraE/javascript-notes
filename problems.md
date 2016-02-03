@@ -55,4 +55,15 @@ if (quarter(36) % 3 === 0 )
   
 }
 
+#Problem3
 
+Write a function called perimeterBox that returns the perimeter of a rectangle.
+
+#solution3
+
+var perimeterBox = function (length, width){
+    
+    return length + length + width + width ;
+    
+};
+perimeterBox (5, 8);
