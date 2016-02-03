@@ -18,3 +18,10 @@ var orangeCost = function (cost){
 
 orangeCost (5);
 
+#solution2
+var orangeCost = function(price){
+    var val = price*5;
+    console.log(val);
+}
+orangeCost(7)
+
