@@ -67,3 +67,33 @@ var perimeterBox = function (length, width){
     
 };
 perimeterBox (5, 8);
+
+#Global vs Local Variables
+
+Scope. Scope can be global or local.
+
+Variables defined outside a function are accessible anywhere once they have been declared. They are called global variables and their scope is global.
+
+For example:
+
+var globalVar = "hello";
+
+var foo = function() {
+
+    console.log(globalVar);  // prints "hello"
+}
+
+The variable globalVar can be accessed anywhere, even inside the function foo.
+
+Variables defined inside a function are local variables. They cannot be accessed outside of that function.
+
+For example:
+
+var bar = function() {
+
+    var localVar = "howdy";
+}
+
+console.log(localVar);  // error
+
+The variable localVar only exists inside the function bar. Trying to print localVar outside the function gives a error.
