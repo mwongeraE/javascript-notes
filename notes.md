@@ -56,3 +56,22 @@ The entire function ends with a semi-colon.
 To use the function, we call the function by just typing the function's name, and putting a parameter value inside parentheses after it. The 
 
 computer will run the reusable code with the specific parameter value substituted into the code.
+
+#Return keyword
+
+The return keyword simply gives the programmer back the value that comes out of the function. So the function runs, and when the return keyword is used, the function will immediately stop running and return the value.
+
+example:
+
+// Parameter is a number, and we do math with that parameter
+
+var timesTwo = function(number) {
+
+    return number * 2;
+};
+
+// Call timesTwo here!
+
+var newNumber = timesTwo (8)
+
+console.log(newNumber);
