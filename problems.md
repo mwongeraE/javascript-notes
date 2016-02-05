@@ -204,4 +204,17 @@ else
 
 {console.log("Name Not here");}
 
+#Write a while loop that logs "I'm looping!" to the console three times. 
 
+var count = 0;
+
+var loop = function(count){
+
+	while(count < 3){
+	    console.log("I'm looping!" );
+	    count ++;
+		//Your code goes here!
+	}
+};
+
+loop(count) ;
