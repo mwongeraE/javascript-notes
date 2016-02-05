@@ -179,4 +179,29 @@ for (var i = 0; i < names.length; i++) {
 
 #In this project, you'll be writing a short program that checks a block of text for your name.
 
+var text = "blah blah Benjamin blah blah blah Benjamin";
+
+var myName = "Evans";
+
+var hits = [];
+
+for(var i=0; i < text.length; i++){
+
+    if (text[i] = myName[0]){
+        for(var j = i; j < i + myName.length; j++){
+            if(text[j]===myName[j-i]){
+                hits.push(text[j]);
+            }
+        }
+    }
+}
+        if (hits.length > 2 ){
+        
+console.log(hits);
+
+}
+else 
+
+{console.log("Name Not here");}
+
 
