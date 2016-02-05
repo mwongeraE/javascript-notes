@@ -83,3 +83,11 @@ a. store lists of data
 b. can store different data types at the same time
 
 c. are ordered so the position of each piece of data is fixed
+
+example
+
+var names = ["Mao","Gandhi","Mandela"];
+
+var sizes = [4, 6, 3, 2, 1, 9];
+
+var mixed = [34, "candy", "blue", 11];
